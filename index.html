@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        #e1, #e2, #e3, #e4, #e5, #e6, #e7{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form id="form1" action="javascript:alert('Form Submitted!')">
+            <table>
+                <tr>
+                    <td>Faculty Name</td>
+                    <td>:&nbsp;<input type="text" id="fname"></td>
+                    <td><span id="e1"></span></td>
+                </tr>
+                <tr>
+                    <td>Faculty ID</td>
+                    <td>:&nbsp;<input type="text" id="fid" placeholder="ddcccddd"></td>
+                    <td><span id="e2"></span></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>:&nbsp;<input type="radio" name="gender" value="male" required>Male<input type="radio" name="gender" value="female">Female<input type="radio" name="gender" value="other">Other</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>:&nbsp;<input type="text" id="dob" placeholder="DD/MM/YYYY"></td>
+                    <td><span id="e3"></span></td>
+                </tr>
+                <tr>
+                    <td>Email Id</td>
+                    <td>:&nbsp;<input type="email" id="email"></td>
+                    <td><span id="e4"></span></td>
+                </tr>
+                <tr>
+                    <td>Cell Number</td>
+                    <td>:&nbsp;<input type="text" id="cellnum"></td>
+                    <td><span id="e5"></span></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>:&nbsp;<input type="text" id="add"></td>
+                    <td><span id="e6"></span></td>
+                </tr>
+                <tr>
+                    <td>PinCode</td>
+                    <td>:&nbsp;<input type="text" id="pin"></td>
+                    <td><span id="e7"></span></td>
+                </tr>
+                <tr>
+                    <td><button>Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>
